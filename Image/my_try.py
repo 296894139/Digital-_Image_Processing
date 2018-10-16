@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv
 from skimage import io,data
 import matplotlib.pyplot as plt
-img=data.imread('psb.jpg','gray')
+img=data.imread('2.jpg','gray')
 rows=img.shape[0]
 cols=img.shape[1]
 print(rows)

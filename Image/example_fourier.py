@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 
 from imconv import imconv
 
-img = cv.imread('psb.jpg', 0)
+img = cv.imread('timg.jpg', 0)
 kernel_3x3 = np.array([[0.0924, 0.1192, 0.0924],
                        [0.1192, 0.1538, 0.1192],
                        [0.0924, 0.1192, 0.0924]])
